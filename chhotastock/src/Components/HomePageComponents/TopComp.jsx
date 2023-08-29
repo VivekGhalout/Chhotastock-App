@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiLogIn } from 'react-icons/bi';
 import stockticker from "../../../src/Assets/HomePage/stockticker.png"
 import InvestPeLogo from "../../../src/Assets/HomePage/InvestPeLogo.png"
 import topMobile from "../../../src/Assets/HomePage/topMobile.png"
