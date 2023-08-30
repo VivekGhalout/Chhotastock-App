@@ -40,10 +40,10 @@ function Footer() {
                             <span>Blog</span>
                         </div>
                     </div>
-                    <div>
+                    <div className='playstore-img-div'>
                         <span className='footer-mid-div-heading'>Download the App Now!</span>
                         <div>
-                            <img src={playstore} alt="playstore" />
+                            <img src={playstore} alt="playstore" width={"100%"}/>
                         </div>
                     </div>
                 </div>
@@ -52,29 +52,29 @@ function Footer() {
                     <span>Find Us On</span>
                     <div className='social-icons'>
                         <div>
-                            <img src={facebook} alt="fb" />
+                            <img src={facebook} alt="fb" width={"100%"}/>
                         </div>
                         <div>
-                            <img src={youtube} alt="yt" />
+                            <img src={youtube} alt="yt" width={"100%"}/>
                         </div>
                         <div>
-                            <img src={instagram} alt="insta" />
+                            <img src={instagram} alt="insta" width={"100%"}/>
                         </div>
                         <div>
-                            <img src={twitter} alt="twit" />
+                            <img src={twitter} alt="twit" width={"100%"}/>
                         </div>
                     </div>
                 </div>
 
                 <div className='footer-bottom-div'>
                     <p>© 2022 Chhotastock Technologies Private Limited. All rights reserved. CIN - U74999WB2012PTC184187 Chhotastock Technologies Private Limited.</p>
-                    <div style={{ lineHeight: "1px" }}>
+                    <div>
                         <p>Chhotastock Technologies builds platforms & investment products to invest better in Indian investment asset classes. </p>
                         <p>Investing in Stocks/ETFs (Exchange Traded Funds) are subject to market risks. Read all the related documents before investing. Investors should consider all risk factors and consult their financial advisor before investing</p>
                     </div>
                     <p>Registered Office: L151, 3rd Floor, CK Pearl, 5th Main Road, HSR Layout Sector 6, Bengaluru, Karnataka - 560102, India</p>
                     <p>For any query / feedback / clarifications, email at contact@chhotastock.com</p>
-                    <div style={{ lineHeight: "1px" }}>
+                    <div>
                         <p>All Investment ideas, model portfolios & advisory are built by SEBI Registered Investment advisors (RIAs) & Chhotastock only facilitates investments</p>
                         <p>in such baskets, portfolios.</p>
                     </div>

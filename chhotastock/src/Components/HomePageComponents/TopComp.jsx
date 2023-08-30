@@ -38,7 +38,7 @@ function TopComp() {
                 <h1>Knowledge Based <br/>Investing & Trading</h1>
                 <p>Ready-made solutions + Deep Research + Disciplined Investing + Advanced Trading tools</p>
                 <div className='mobile-img-div'>
-                    <img src={topMobile} alt="topMobile" width={"85%"}/>
+                    <img src={topMobile} alt="topMobile" width={"100%"}/>
                 </div>
             </div>
 

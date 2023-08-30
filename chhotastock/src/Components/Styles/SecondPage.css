@@ -26,7 +26,7 @@
 }
 
 .gateway-div {
-  width: 135px;
+  width: 35%;
   height: 45px;
   border-radius: 35px;
   background: #fdecec;
@@ -37,11 +37,11 @@
   font-size: 20px;
   font-weight: 500;
   color: #f05656;
+  margin-left: 10px;
 }
 
 .sec-comp-logo-div {
-  width: 318px;
-  height: 91px;
+  width: 80%;
   margin-left: -50px;
   cursor: pointer;
 }
@@ -94,8 +94,8 @@
   display: none;
   position: absolute;
   background-color: #ffffff;
-  width: 80%;
-  left: 10%;
+  width: 76%;
+  left: 12%;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 4;
 }

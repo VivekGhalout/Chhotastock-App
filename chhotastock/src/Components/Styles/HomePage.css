@@ -1,14 +1,13 @@
 /* ============= TOPCOPM STYLES =========== */
 
 .stock-tickers {
-  max-width: 1920px;
-  max-height: 24px;
+  width: 100%;
 }
 
 /* ============= NAVBAR STYLES =========== */
 
 .navbar {
-  max-width: 1920px;
+  width: 100%;
   height: 110px;
   background-color: #171e27;
   display: flex;
@@ -18,8 +17,7 @@
 }
 
 .logo-div {
-  width: 318px;
-  height: 91px;
+  width: 22%;
   cursor: pointer;
 }
 
@@ -49,7 +47,7 @@ input.nosubmit {
 }
 
 .login-btn {
-  width: 145px;
+  width: 10%;
   height: 57px;
   background: transparent;
 }
@@ -72,7 +70,7 @@ input.nosubmit {
 /* ============= KNOWLEDGE BASED DIV STYLES =========== */
 
 .bottom-div {
-  max-width: 1920px;
+  width: 100%;
   background-color: #171e27;
   text-align: center;
   margin-top: -50px;
@@ -98,7 +96,7 @@ input.nosubmit {
 
 .mobile-img-div {
   margin: auto;
-  width: 1170px;
+  width: 75%;
 }
 
 /* ============= FEATURES COMP STYLES =========== */
@@ -140,15 +138,15 @@ input.nosubmit {
 }
 
 .get-app-btn-div {
-  width: 80%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 15%;
   align-items: center;
   margin-top: 60px;
 }
 
 .get-app-btn-div button {
-  width: 178px;
+  width: 35%;
   height: 57px;
   border-radius: 35px;
   background: linear-gradient(90.9deg, #fec826 0.56%, #f3a61d 96.47%);
@@ -159,7 +157,6 @@ input.nosubmit {
   color: #171e27;
   border: none;
   box-shadow: 0px 4px 4px 0px #00000040;
-
 }
 
 .get-app-btn-div p {
@@ -172,11 +169,47 @@ input.nosubmit {
 }
 
 .feature-div-right {
-  width: 54%;
+  width: 55%;
 }
 
 .company-icon-div {
   display: flex;
+}
+
+.mmtrip_logo {
+  translate: 15px 175px;
+}
+
+.bounce_logo {
+  translate: 0px 105px;
+}
+
+.apple_logo {
+  translate: 10px 30px;
+}
+
+.myntra_logo {
+  translate: 15px 10px;
+}
+
+.amazon_logo {
+  translate: 30px 10px;
+}
+
+.croma_logo {
+  translate: 75px 35px;
+}
+
+.caratlane_logo {
+  translate: 35px 120px;
+}
+
+.easeMyTrip_logo {
+  translate: -90px 185px;
+}
+
+.pepperfry_logo {
+  translate: -160px 260px;
 }
 
 .cards-div {
@@ -186,19 +219,23 @@ input.nosubmit {
 }
 
 .bike-card {
-  width: 326px;
-  height: 151px;
-  margin-top: 20px;
+  width: 51%;
+  margin-top: 40px;
   z-index: 1;
 }
 
 .laptop-card {
-  margin-top: -150px;
+  margin-top: -175px;
+}
+
+.laptop-card > div:nth-child(2) {
+  width: 95%;
+  margin: auto;
 }
 
 .mobile-card {
-  width: 326px;
-  height: 151px;
+  width: 52%;
+  margin-top: -15px;
 }
 
 /* ============= ESSENTIAL FEATURES COMP STYLES =========== */
@@ -206,9 +243,9 @@ input.nosubmit {
 .essential-features-div {
   width: 80%;
   margin: auto;
-  border-radius: 100px;
+  border-radius: 80px;
   background: #171e27;
-  margin-top: 120px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   padding: 70px 10px 90px 40px;
@@ -249,28 +286,26 @@ input.nosubmit {
 .analytic-tools-div div {
   font-size: 20px;
   font-weight: 500;
-  line-height: 35px;
   letter-spacing: 0em;
   color: #cecece;
   padding-left: 15px;
 }
 
 .get-started-btn-div {
-  width: 65%;
+  width: 75%;
   display: flex;
-  justify-content: space-between;
+  gap: 12%;
   align-items: center;
   margin-top: 60px;
 }
 
 .get-started-btn-div button {
-  width: 234px;
-  height: 57px;
+  width: 40%;
+  height: 50px;
   border-radius: 35px;
   background: linear-gradient(90.9deg, #fec826 0.56%, #f3a61d 96.47%);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
-  line-height: 29px;
   letter-spacing: 0em;
   color: #171e27;
   border: none;
@@ -279,7 +314,6 @@ input.nosubmit {
 .get-started-btn-div div {
   font-size: 24px;
   font-weight: 500;
-  line-height: 29px;
   letter-spacing: 0em;
   color: #ffffff;
   text-decoration: underline;
@@ -306,13 +340,12 @@ input.nosubmit {
 .investing-simplified {
   width: 72%;
   margin: auto;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .investing-simplified div:nth-child(1) {
   font-size: 32px;
   font-weight: 700;
-  line-height: 51px;
   letter-spacing: 0em;
 }
 
@@ -329,7 +362,7 @@ input.nosubmit {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .deals-div div {
@@ -399,13 +432,14 @@ input.nosubmit {
 .business-builder-img {
   width: 58%;
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 10%;
 }
 
 .business-builder-img div {
-  width: 210px;
+  width: 32%;
   height: 120px;
-  border-radius: 50px;
+  border-radius: 40px;
   background: #b1b1b1;
   display: flex;
   align-items: center;
@@ -431,15 +465,14 @@ input.nosubmit {
 .review-comp-top-div > p {
   font-size: 45px;
   font-weight: 700;
-  width: 400px;
+  width: 35%;
 }
 
 .register-users,
 .worth-investing {
   background: #f3f3f3;
   border-radius: 30px;
-  max-height: 130px;
-  width: 240px;
+  width: 25%;
   padding: 25px 20px;
   display: flex;
   flex-direction: column;
@@ -447,6 +480,526 @@ input.nosubmit {
   align-items: start;
 }
 
+.register-users > span:nth-child(1),
+.worth-investing > span:nth-child(1) {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.register-users > span:nth-child(2),
+.worth-investing > span:nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .review-cards-div div {
   width: 18.5%;
+}
+
+@media screen and (max-width: 830px) {
+  .features-comp-main-div {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .feature-div-left {
+    width: 100%;
+    margin: auto;
+  }
+
+  .feature-div-right {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .caratlane_logo {
+    translate: 70px 120px;
+  }
+
+  .easeMyTrip_logo {
+    translate: -50px 185px;
+  }
+
+  .pepperfry_logo {
+    translate: -120px 260px;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 0px 30px 0px 0px;
+  }
+
+  .logo-div {
+    width: 38%;
+  }
+
+  .search-bar {
+    width: 30%;
+    translate: -30px 0px;
+  }
+
+  .login-btn {
+    width: 17%;
+  }
+
+  .logo-div > p {
+    margin-left: 102px;
+  }
+
+  .bike-card {
+    width: 45%;
+    margin-left: -30px;
+  }
+
+  .laptop-card {
+    margin-top: -175px;
+    margin-left: -40px;
+  }
+
+  .laptop-card > div:nth-child(2) {
+    width: 90%;
+    margin: auto;
+  }
+
+  .mobile-card {
+    width: 45%;
+    margin-left: -30px;
+  }
+
+  .essential-features-div {
+    width: 90%;
+    flex-direction: column;
+    padding: 50px 10px 60px 30px;
+  }
+
+  .essential-features-text {
+    width: 100%;
+  }
+
+  .essential-features-img {
+    width: 35%;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .essential-features-img img:nth-child(1) {
+    position: absolute;
+    top: -180px;
+    left: 450px;
+  }
+
+  .essential-features-img img:nth-child(2) {
+    position: absolute;
+    top: -140px;
+    left: 410px;
+  }
+
+  .essential-features-img img:nth-child(3) {
+    position: absolute;
+    top: -100px;
+    left: 360px;
+  }
+
+  .get-started-btn-div {
+    flex-direction: column;
+    align-items: start;
+    margin-top: 40px;
+  }
+
+  .get-started-btn-div div {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .investing-simplified {
+    width: 80%;
+  }
+
+  .investing-simplified div:nth-child(2) {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .deals-div {
+    width: 90%;
+    margin-top: 40px;
+  }
+
+  .partners-copm {
+    width: 90%;
+    margin-top: 40px;
+    padding: 40px 20px;
+  }
+
+  .broker-partners > div:nth-child(1) {
+    font-size: 28px;
+  }
+
+  .broker-partners-img div:nth-child(1) div {
+    width: 32%;
+  }
+  .broker-partners-img div:nth-child(2) div {
+    width: 28%;
+  }
+
+  .business-builder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .business-builder-text {
+    width: 50%;
+    font-size: 28px;
+  }
+
+  .business-builder-img {
+    width: 58%;
+    gap: 15%;
+  }
+
+  .business-builder-img div {
+    width: 45%;
+  }
+
+  /* ============= REVIEWS COMP STYLES =========== */
+
+  .review-comp {
+    width: 90%;
+  }
+
+  .review-comp-top-div,
+  .review-cards-div {
+    margin-top: 40px;
+  }
+
+  .review-comp-top-div > p {
+    font-size: 35px;
+  }
+
+  .register-users,
+  .worth-investing {
+    width: 30%;
+    padding: 25px 20px;
+  }
+
+  .register-users > span:nth-child(1),
+  .worth-investing > span:nth-child(1) {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .register-users > span:nth-child(2),
+  .worth-investing > span:nth-child(2) {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .review-cards-div div {
+    width: 18.5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* ============= TOPCOPM STYLES =========== */
+
+  /* ============= NAVBAR STYLES =========== */
+
+  .navbar {
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .logo-div {
+    display: none;
+  }
+
+  .search-bar {
+    width: 50%;
+    translate: 0px 0px;
+  }
+
+  .login-btn {
+    width: 35%;
+    height: 45px;
+  }
+
+  .login-btn button {
+    font-size: 20px;
+  }
+
+  /* ============= KNOWLEDGE BASED DIV STYLES =========== */
+
+  .bottom-div h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bottom-div p {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+
+  .mobile-img-div {
+    margin: auto;
+    width: 75%;
+  }
+  .features-comp-main-div {
+    margin-top: 20px;
+  }
+
+  .feature-div-left {
+    width: 100%;
+    margin: auto;
+  }
+
+  .get-app-btn-div {
+    margin-top: 20px;
+  }
+
+  .get-app-btn-div button {
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .feature-div-right {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .mmtrip_logo {
+    width: 5%;
+    translate: 0px 0px;
+  }
+
+  .bounce_logo {
+    width: 5%;
+    translate: 0px 0px;
+  }
+
+  .apple_logo {
+    width: 5%;
+    translate: 0px 0px;
+  }
+
+  .myntra_logo {
+    width: 5%;
+    translate: 0px 0px;
+  }
+
+  .amazon_logo {
+    width: 5%;
+    translate: 0px 0px;
+  }
+
+  .croma_logo {
+    width: 5%;
+    translate: 0px 0px;
+  }
+
+  .caratlane_logo {
+    width: 5%;
+    translate: 0px 0px;
+  }
+
+  .easeMyTrip_logo {
+    width: 5%;
+    translate: 0px 0px;
+  }
+
+  .pepperfry_logo {
+    width: 5%;
+    translate: 0px 0px;
+  }
+
+  .company-icon-div {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bike-card {
+    width: 45%;
+    margin-left: 0px;
+  }
+
+  .laptop-card {
+    margin-top: -175px;
+    margin-left: 0px;
+  }
+
+  .laptop-card > div:nth-child(2) {
+    width: 100%;
+    margin: auto;
+  }
+
+  .mobile-card {
+    width: 45%;
+    margin-left: 0px;
+  }
+
+  /* ============= ESSENTIAL FEATURES COMP STYLES =========== */
+
+  .essential-features-text div {
+    font-size: 28px;
+  }
+
+  .essential-features-text p {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .analytic-tools-div {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .analytic-tools-div div {
+    font-size: 12px;
+  }
+
+  .get-started-btn-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0%;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .get-started-btn-div button {
+    width: 50%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .get-started-btn-div div {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .essential-features-img {
+    display: none;
+  }
+
+  .investing-simplified {
+    width: 75%;
+    margin-top: 50px;
+  }
+
+  .investing-simplified div:nth-child(1) {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0em;
+  }
+
+  .investing-simplified div:nth-child(2) {
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .partners-copm {
+    width: 90%;
+    margin-top: 40px;
+    padding: 20px 20px;
+  }
+
+  .broker-partners > div:nth-child(1) {
+    font-size: 14px;
+  }
+
+  .broker-partners-img div:nth-child(1) div {
+    width: 32%;
+  }
+  .broker-partners-img div:nth-child(2) div {
+    width: 28%;
+  }
+
+  .business-builder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .business-builder-text {
+    width: 50%;
+    font-size: 14px;
+  }
+
+  .business-builder-img {
+    width: 60%;
+    gap: 15%;
+  }
+
+  .business-builder-img div {
+    width: 50%;
+    height: 60px;
+    border-radius: 20px;
+  }
+
+  /* ============= REVIEWS COMP STYLES =========== */
+
+  .review-comp {
+    width: 90%;
+    margin: auto;
+  }
+
+  .review-comp-top-div,
+  .review-cards-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .review-comp-top-div > p {
+    font-size: 18px;
+    font-weight: 700;
+    width: 38%;
+  }
+
+  .register-users,
+  .worth-investing {
+    background: #f3f3f3;
+    border-radius: 30px;
+    width: 30%;
+    padding: 10px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+  }
+
+  .register-users > span:nth-child(1),
+  .worth-investing > span:nth-child(1) {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .register-users > span:nth-child(2),
+  .worth-investing > span:nth-child(2) {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .review-cards-div div {
+    width: 18.5%;
+  }
 }

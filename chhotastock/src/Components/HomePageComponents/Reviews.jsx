@@ -14,14 +14,14 @@ function Reviews() {
                         Review From Early Adopters
                     </p>
                     <div className='register-users'>
-                        <span style={{ fontSize: "40px", fontWeight: "700" }}>156k+</span>
-                        <span style={{ fontSize: "20px", fontWeight: "500" }}>
+                        <span >156k+</span>
+                        <span >
                             Registered Users
                         </span>
                     </div>
                     <div className='worth-investing'>
-                        <span style={{ fontSize: "40px", fontWeight: "700" }}>$1.5Mn+</span>
-                        <span style={{ fontSize: "20px", fontWeight: "500" }}>
+                        <span >$1.5Mn+</span>
+                        <span >
                             Worth investing done
                         </span>
                     </div>

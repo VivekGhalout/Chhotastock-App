@@ -13,15 +13,13 @@
 }
 
 .footer-logo-div {
-  width: 318px;
-  height: 91px;
+  width: 25%;
 }
 
 .footer-logo-div > p {
   color: #ffffff;
   font-size: 12px;
   font-weight: 400;
-  line-height: 15px;
   letter-spacing: 0em;
   margin-top: -30px;
   margin-left: 112px;
@@ -31,6 +29,10 @@
   display: flex;
   gap: 12%;
   margin-top: 50px;
+}
+
+.playstore-img-div > div {
+  width: 100%;
 }
 
 .footer-mid-div-heading {
@@ -47,7 +49,7 @@
   font-size: 14px;
   font-weight: 400;
   margin-top: 15px;
-  color: gray;
+  color: #d9d9d9;
 }
 
 .social-links {
@@ -58,14 +60,131 @@
 
 .social-icons {
   display: flex;
-  gap: 30px;
+  gap: 2%;
   align-items: center;
   margin-top: 10px;
 }
 
+/* .social-icons > div {
+  border: 1px solid red;
+} */
+
 .footer-bottom-div {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 18px;
   margin-top: 50px;
+  color: #d9d9d9;
+}
+
+.footer-bottom-div > div {
+  line-height: 1px;
+}
+
+@media screen and (max-width: 830px) {
+  .footer-main-div {
+    padding: 30px 0px 60px 0px;
+  }
+
+  .footer {
+    width: 90%;
+  }
+
+  .footer-logo-div {
+    width: 45%;
+  }
+
+  .footer-logo-div > p {
+    margin-left: 115px;
+  }
+
+  .footer-mid-div {
+    gap: 8%;
+    margin-top: 40px;
+  }
+
+  .playstore-img-div > div {
+    width: 90%;
+  }
+
+  .contact,
+  .company,
+  .quicklinks {
+    font-size: 15px;
+  }
+
+  .social-links {
+    margin-top: 20px;
+  }
+
+  .footer-bottom-div {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-top: 40px;
+    color: #d9d9d9;
+  }
+
+  .footer-bottom-div > div {
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-main-div {
+    padding: 20px 0px 40px 0px;
+    margin-top: 40px;
+  }
+
+  .footer {
+    width: 85%;
+    margin: auto;
+  }
+
+  .footer-logo-div {
+    width: 80%;
+  }
+
+  .footer-logo-div > p {
+    font-size: 10px;
+    margin-left: 90px;
+  }
+
+  .footer-mid-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+  }
+
+  .playstore-img-div > div {
+    width: 80%;
+  }
+
+  .footer-mid-div-heading {
+    font-size: 16px;
+  }
+
+  .contact,
+  .company,
+  .quicklinks {
+    font-size: 12px;
+  }
+
+  .social-links {
+    margin-top: 50px;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 5%;
+  }
+
+
+  .footer-bottom-div {
+    font-size: 12px;
+  }
+
+  .footer-bottom-div > div {
+    line-height: 15px;
+  }
 }

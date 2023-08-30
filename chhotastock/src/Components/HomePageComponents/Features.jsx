@@ -31,31 +31,31 @@ function Features() {
                 </div>
                 <div className='feature-div-right'>
                     <div className='company-icon-div'>
-                        <div style={{ translate: "15px 175px" }}>
+                        <div className='mmtrip_logo'>
                             <img src={mmtrip_logo} alt="mmtrip_logo" width={"48px"} height={"48px"} />
                         </div>
-                        <div style={{ translate: "0px 105px" }}>
+                        <div className='bounce_logo'>
                             <img src={bounce_logo} alt="bounce_logo" width={"80px"} height={"44px"} />
                         </div>
-                        <div style={{ translate: "10px 30px" }}>
+                        <div className='apple_logo'>
                             <img src={apple_logo} alt="apple_logo" width={"78px"} height={"78px"} />
                         </div>
-                        <div style={{ translate: "15px 10px" }}>
+                        <div className='myntra_logo'>
                             <img src={myntra_logo} alt="myntra_logo" width={"100px"} height={"65px"} />
                         </div>
-                        <div style={{ translate: "30px 10px" }}>
+                        <div className='amazon_logo'>
                             <img src={amazon_logo} alt="amazon_logo" width={"65px"} height={"62px"} />
                         </div>
-                        <div style={{ translate: "75px 35px" }}>
+                        <div className='croma_logo'>
                             <img src={croma_logo} alt="croma_logo" width={"95px"} height={"78px"} />
                         </div>
-                        <div style={{ translate: "35px 120px" }}>
+                        <div className='caratlane_logo'>
                             <img src={caratlane_logo} alt="caratlane_logo" width={"160px"} height={"50px"} />
                         </div>
-                        <div style={{ translate: "-90px 185px" }}>
+                        <div className='easeMyTrip_logo'>
                             <img src={easeMyTrip_logo} alt="easeMyTrip_logo" width={"90px"} height={"40px"} />
                         </div>
-                        <div style={{ translate: "-160px 260px" }}>
+                        <div className='pepperfry_logo'>
                             <img src={pepperfry_logo} alt="pepperfry_logo" width={"145px"} height={"30px"} />
                         </div>
                     </div>
@@ -64,10 +64,10 @@ function Features() {
                             <img src={bike_card} alt="bike_card" width={"100%"} />
                         </div>
                         <div className='laptop-card'>
-                            <div style={{translate:"-25px 175px"}}>
-                                <img src={laptop} alt="laptop" />
+                            <div style={{translate:"-10px 175px"}}>
+                                <img src={laptop} alt="laptop"/>
                             </div>
-                            <div style={{width:"422px", height:"197px"}}>
+                            <div>
                                 <img src={laptop_card} alt="laptop_card" width={"100%"}/>
                             </div>
                         </div>
